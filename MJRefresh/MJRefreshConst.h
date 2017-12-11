@@ -65,3 +65,16 @@ UIKIT_EXTERN NSString *const MJRefreshHeaderNoneLastDateText;
 MJRefreshState oldState = self.state; \
 if (state == oldState) return; \
 [super setState:state];
+
+
+// header状态检查
+#define MJRefreshCheckHeaderState \
+if (((MJRefreshComponent *)self.scrollView.mj_header).isRefreshing) { \
+return; \
+}
+
+// footer状态检查
+#define MJRefreshCheckFooterState \
+if (((MJRefreshComponent *)self.scrollView.mj_footer).isRefreshing) { \
+return; \
+}

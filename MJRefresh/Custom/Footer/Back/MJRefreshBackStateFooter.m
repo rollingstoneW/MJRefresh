@@ -74,6 +74,7 @@
 
 - (void)setState:(MJRefreshState)state
 {
+    MJRefreshCheckHeaderState
     MJRefreshCheckState
     
     // 设置状态文字

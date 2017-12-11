@@ -81,6 +81,7 @@
 
 - (void)setState:(MJRefreshState)state
 {
+    MJRefreshCheckHeaderState
     MJRefreshCheckState
     
     if (self.isRefreshingTitleHidden && state == MJRefreshStateRefreshing) {

@@ -100,6 +100,7 @@
 
 - (void)setState:(MJRefreshState)state
 {
+    MJRefreshCheckFooterState
     MJRefreshCheckState
     
     // 根据状态做事情

@@ -104,6 +104,7 @@
 
 - (void)setState:(MJRefreshState)state
 {
+    MJRefreshCheckHeaderState
     MJRefreshCheckState
     
     if (state == MJRefreshStateRefreshing) {

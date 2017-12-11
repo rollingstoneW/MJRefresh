@@ -156,6 +156,7 @@
 
 - (void)setState:(MJRefreshState)state
 {
+    MJRefreshCheckFooterState
     MJRefreshCheckState
     
     // 设置状态文字

@@ -56,6 +56,7 @@
 
 - (void)setState:(MJRefreshState)state
 {
+    MJRefreshCheckHeaderState
     MJRefreshCheckState
     
     // 根据状态做事情
